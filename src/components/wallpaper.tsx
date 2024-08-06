@@ -1,10 +1,9 @@
-import { useMemo, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 import { loadFull } from "tsparticles";
-import { OutMode } from "@tsparticles/engine";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 
-import type { Container, ISourceOptions } from "@tsparticles/engine";
+import type { ISourceOptions } from "@tsparticles/engine";
 
 const options: ISourceOptions = {
   background: {
