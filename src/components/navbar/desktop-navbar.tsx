@@ -7,7 +7,10 @@ type DesktopNavbarProps = { links: NavbarLinkProps[] };
 export const DesktopNavbar: React.FC<DesktopNavbarProps> = ({ links }) => {
   return (
     <div className="container hidden items-center justify-between lg:flex">
-      <a className="cursor-pointer" href="/">
+      <a
+        href="/"
+        className="cursor-pointer group transition-colors duration-300"
+      >
         <svg
           id="logo"
           role="img"
@@ -21,8 +24,7 @@ export const DesktopNavbar: React.FC<DesktopNavbarProps> = ({ links }) => {
         >
           <polygon
             stroke-width="10"
-            fill="rgb(10, 25, 47)"
-            stroke="rgb(14, 227, 181)"
+            className="stroke-neon fill-secondary group-hover:fill-neon-light transition-colors duration-300"
             points="52,16.8615612366939 148,16.8615612366939 196,100 148,183.138438763306 52,183.138438763306 4,100"
           ></polygon>
           <path
@@ -34,12 +36,10 @@ export const DesktopNavbar: React.FC<DesktopNavbarProps> = ({ links }) => {
           ></path>
         </svg>
       </a>
-      <div className="flex items-center space-x-6">
-        <nav className="flex gap-6">
-          {links.map((item) => (
-            <NavbarLink {...item} key={item.href} />
-          ))}
-        </nav>
+      <nav className="flex gap-6 items-center">
+        {links.map((item) => (
+          <NavbarLink {...item} key={item.href} />
+        ))}
         <a
           href=""
           download
@@ -49,7 +49,7 @@ export const DesktopNavbar: React.FC<DesktopNavbarProps> = ({ links }) => {
         >
           Resume
         </a>
-      </div>
+      </nav>
     </div>
   );
 };

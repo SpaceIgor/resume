@@ -1,13 +1,15 @@
 import { Wallpaper } from "@/components/wallpaper";
 import { Navbar } from "@/components/navbar/navbar";
 
+import { HeroSection } from "@/components/sections/hero";
+
 export const App = () => {
   return (
     <>
       <Wallpaper />
       <Navbar />
-      <div className="w-full h-screen flex justify-center items-center">
-        <h1 className="font-ubuntu-condensed text-2xl text-white">Test APP</h1>
+      <div className="p-5 w-full h-screen flex justify-center items-center lg:p-0">
+        <HeroSection />
       </div>
     </>
   );

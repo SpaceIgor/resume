@@ -6,8 +6,8 @@ import type { NavbarLinkProps } from "./navbar-link";
 
 type MobileNavbarProps = { links: NavbarLinkProps[] };
 
-export const MobileNavbar: React.FC<MobileNavbarProps> = ({ links }) => {
-  const [open, setOpen] = useState(false);
+export const MobileNavbar: React.FC<MobileNavbarProps> = () => {
+  const [open] = useState(false);
 
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "auto";
