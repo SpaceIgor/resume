@@ -24,19 +24,18 @@
       }
       /* styles for loader fallback */
       .loader-container {
+        position: fixed;
+        inset: 0;
         width: 100vw;
         height: 100vh;
         display: flex;
-        position: fixed;
         align-items: center;
         justify-content: center;
         background: rgb(10, 25, 47);
-        /* transition: all 500ms ease-in-out; */
       }
 
       .loader-hidden {
         opacity: 0;
-        z-index: -100;
         pointer-events: none;
         transition: all 500ms ease-in-out;
       }
@@ -116,8 +115,8 @@
     <script>
       window.addEventListener("load", () => {
         const loader = document.getElementById("loader");
-        setTimeout(() => loader.classList.add("loader-hidden"), 1000);
-        setTimeout(() => loader.remove(), 5000);
+        setTimeout(() => loader.classList.add("loader-hidden"), 2000);
+        setTimeout(() => loader.remove(), 3000);
       });
     </script>
   </body>
