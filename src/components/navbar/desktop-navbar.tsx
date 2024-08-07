@@ -8,7 +8,7 @@ export const DesktopNavbar: React.FC<DesktopNavbarProps> = ({ links }) => {
   return (
     <div className="container hidden items-center justify-between lg:flex">
       <a
-        href="/"
+        href="#hero"
         className="cursor-pointer group transition-colors duration-300"
       >
         <svg
@@ -24,7 +24,7 @@ export const DesktopNavbar: React.FC<DesktopNavbarProps> = ({ links }) => {
         >
           <polygon
             stroke-width="10"
-            className="stroke-neon fill-secondary group-hover:fill-neon-light transition-colors duration-300"
+            className="stroke-neon fill-secondary group-hover:fill-neon-light transition-colors duration-500"
             points="52,16.8615612366939 148,16.8615612366939 196,100 148,183.138438763306 52,183.138438763306 4,100"
           ></polygon>
           <path
@@ -45,7 +45,7 @@ export const DesktopNavbar: React.FC<DesktopNavbarProps> = ({ links }) => {
           download
           rel="noreferrer"
           aria-label="download resume"
-          className="px-4 py-2 text-xl font-roboto-mono font-bold text-neon border-2 border-neon rounded-sm hover:bg-neon-light uppercase"
+          className="px-4 py-2 text-xl font-roboto-mono font-bold text-neon border-2 border-neon rounded-sm transition-colors duration-500 hover:bg-neon-light uppercase"
         >
           Resume
         </a>

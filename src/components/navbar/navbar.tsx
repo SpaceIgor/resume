@@ -46,7 +46,7 @@ export const Navbar = () => {
     <header
       className={cn(
         "p-2 fixed flex items-center z-10 top-0 w-full h-16 bg-secondary lg:h-20 transition-all duration-700 shadow-xl",
-        !show && "-translate-x-full"
+        !show && "-translate-y-full"
       )}
     >
       <DesktopNavbar links={links} />

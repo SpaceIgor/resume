@@ -15,7 +15,7 @@ export const MobileNavbar: React.FC<MobileNavbarProps> = () => {
 
   return (
     <div className="container flex items-center justify-between lg:hidden">
-      <a className="cursor-pointer" href="/">
+      <a className="cursor-pointer" href="#hero">
         <svg
           id="logo"
           role="img"

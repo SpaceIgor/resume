@@ -8,9 +8,12 @@ export const HeroSection = () => {
   const nameLength = name.length - 1;
 
   return (
-    <section className="container p h-screen flex justify-center items-center">
-      <div>
-        <h1 aria-label="Hi, I’m  Mykhailo, JavaScript engineer">
+    <section
+      id="#hero"
+      className="container h-screen flex justify-center items-center"
+    >
+      <div className="w-full flex flex-col gap-4  md:w-3/5">
+        <h1 aria-label="Hi, I’m  Ihor, Python developer">
           {welcome.map((e, i) => (
             <RubberBandText
               key={i}
@@ -53,6 +56,15 @@ export const HeroSection = () => {
             )
           )}
         </h1>
+        <p className="font-roboto-mono text-xl font-semibold text-primary">
+          Back-End Python developer / Web Python developer
+        </p>
+        <a
+          href="#about"
+          className="w-fit mt-4 px-4 py-2 text-xl font-roboto-mono font-bold text-neon border-2 border-neon rounded-sm transition-colors duration-500 hover:bg-neon-light"
+        >
+          About me
+        </a>
       </div>
     </section>
   );
