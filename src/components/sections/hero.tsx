@@ -9,7 +9,7 @@ export const HeroSection = () => {
 
   return (
     <section
-      id="#hero"
+      id="hero"
       className="container min-h-screen flex justify-center items-center"
     >
       <div className="w-full flex flex-col gap-4 md:w-3/5">

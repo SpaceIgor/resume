@@ -1,5 +1,6 @@
 export const config = {
   socials: {
+    resume_link: "",
     telegram_link: "https://t.me/taranka_21",
     linkedin_link: "https://www.linkedin.com/in/ihor-sivak-016945215/",
     email: "igorsivak97@gmail.com",

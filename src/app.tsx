@@ -15,8 +15,8 @@ export const App = () => {
         <HeroSection />
         <Experience />
         <ContactMe />
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 };

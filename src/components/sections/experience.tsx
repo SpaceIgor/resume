@@ -51,6 +51,7 @@ export const Experience = () => {
           >
             {experience.map((item, index) => (
               <button
+                key={item + "-button-" + index}
                 aria-selected={index === tabIndex}
                 onClick={() => setTabIndex(index)}
                 role="tab-button"
@@ -88,9 +89,9 @@ export const Experience = () => {
               {time_interval}
             </span>
             <ul className="pl-6 space-y-2">
-              {responsibilities.map((item) => (
+              {responsibilities.map((item, index) => (
                 <li
-                  key={item}
+                  key={item + "-" + index}
                   className="relative text-lg text-primary before:content-['\2BC8'] before:absolute before:text-neon before:-left-6"
                 >
                   {item}

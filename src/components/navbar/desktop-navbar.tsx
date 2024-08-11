@@ -1,5 +1,7 @@
 import { NavbarLink } from "./navbar-link";
 
+import { config } from "@/lib/config";
+
 import type { NavbarLinkProps } from "./navbar-link";
 
 type DesktopNavbarProps = { links: NavbarLinkProps[] };
@@ -23,7 +25,7 @@ export const DesktopNavbar: React.FC<DesktopNavbarProps> = ({ links }) => {
           xmlnsXlink="http://www.w3.org/1999/xlink"
         >
           <polygon
-            stroke-width="10"
+            strokeWidth="10"
             className="stroke-neon fill-secondary group-hover:fill-neon-light transition-colors duration-500"
             points="52,16.8615612366939 148,16.8615612366939 196,100 148,183.138438763306 52,183.138438763306 4,100"
           ></polygon>
@@ -41,10 +43,10 @@ export const DesktopNavbar: React.FC<DesktopNavbarProps> = ({ links }) => {
           <NavbarLink {...item} key={item.href} />
         ))}
         <a
-          href=""
           download
           rel="noreferrer"
           aria-label="download resume"
+          href={config.socials.resume_link}
           className="px-4 py-2 text-xl font-roboto-mono font-bold text-neon border-2 border-neon rounded-sm transition-colors duration-500 hover:bg-neon-light uppercase"
         >
           Resume
