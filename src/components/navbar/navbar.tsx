@@ -8,19 +8,19 @@ import { cn, isBrowser } from "@/lib/utils";
 const links = [
   {
     text: "About",
-    href: "/#about",
+    href: "#about",
   },
   {
     text: "Experience",
-    href: "/#experience",
+    href: "#experience",
   },
   {
     text: "Projects",
-    href: "/#projects",
+    href: "#projects",
   },
   {
     text: "Contact",
-    href: "/#contact",
+    href: "#contact",
   },
 ];
 

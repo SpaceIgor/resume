@@ -10,9 +10,9 @@ export const HeroSection = () => {
   return (
     <section
       id="#hero"
-      className="container h-screen flex justify-center items-center"
+      className="container min-h-screen flex justify-center items-center"
     >
-      <div className="w-full flex flex-col gap-4  md:w-3/5">
+      <div className="w-full flex flex-col gap-4 md:w-3/5">
         <h1 aria-label="Hi, I’m  Ihor, Python developer">
           {welcome.map((e, i) => (
             <RubberBandText
@@ -20,7 +20,7 @@ export const HeroSection = () => {
               text={e}
               duration={500}
               delay={50 * i}
-              className="text-4xl md:text-5xl tracking-widest"
+              className="text-4xl md:text-5xl tracking-wider"
             />
           ))}
           <br />
@@ -30,7 +30,7 @@ export const HeroSection = () => {
                 key={i}
                 text={e}
                 duration={500}
-                className="text-4xl md:text-5xl tracking-widest"
+                className="text-4xl md:text-5xl tracking-wider"
                 delay={50 * i + (500 + welcomeLength * 50)}
               />
             ) : (
@@ -46,7 +46,7 @@ export const HeroSection = () => {
                 key={i}
                 text={e}
                 duration={500}
-                className="text-4xl md:text-5xl tracking-widest"
+                className="text-4xl md:text-5xl tracking-wider"
                 delay={50 * i + (500 + nameLength * 50)}
               />
             ) : (
@@ -56,12 +56,12 @@ export const HeroSection = () => {
             )
           )}
         </h1>
-        <p className="font-roboto-mono text-xl font-semibold text-primary">
+        <p className="font-roboto-mono font-semibold text-primary  md:text-xl">
           Back-End Python developer / Web Python developer
         </p>
         <a
           href="#about"
-          className="w-fit mt-4 px-4 py-2 text-xl font-roboto-mono font-bold text-neon border-2 border-neon rounded-sm transition-colors duration-500 hover:bg-neon-light"
+          className="w-fit mt-4 px-4 py-2 text-lg md:text-xl font-roboto-mono font-bold text-neon border-2 border-neon rounded-sm transition-colors duration-500 hover:bg-neon-light"
         >
           About me
         </a>
