@@ -1,18 +1,4 @@
-// import {
-//   SQL,
-//   Flask,
-//   Python,
-//   Django,
-//   Mongodb,
-//   FastAPI,
-//   Selenium,
-//   Dynamodb,
-//   PostgreSQL,
-// } from "@/components/svg";
-
 import { config } from "@/lib/config";
-
-// transition-all duration-500 hover:scale-110
 
 export const AboutMe = () => {
   const text = config.texts.about;
@@ -28,7 +14,6 @@ export const AboutMe = () => {
           {text}
         </p>
         <div className="grid gap-4 grid-cols-5 grid-rows-3">
-          {/* <div className="text-white border border-neon rounded-md aspect-square col-span-2 row-span-2"></div> */}
           <img
             alt="python"
             src="/resume/icons/python.svg"
