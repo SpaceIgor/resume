@@ -31,55 +31,55 @@ export const AboutMe = () => {
           {/* <div className="text-white border border-neon rounded-md aspect-square col-span-2 row-span-2"></div> */}
           <img
             alt="python"
-            src="/resume/public/icons/python.svg"
+            src="/resume/icons/python.svg"
             className="col-span-2 row-span-2 transition-all duration-500 hover:scale-110"
           />
 
           <div className="text-white col-span-3 row-span-1 grid grid-cols-3 grid-rows-1 gap-4 items-center justify-between">
             <img
               alt="sql"
-              src="/resume/public/icons/sql.svg"
+              src="/resume/icons/sql.svg"
               className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
             />
             <div className="col-span-2 row-span-1 grid grid-cols-4 gap-4">
               <img
                 alt="mysql"
-                src="/resume/public/icons/mysql.svg"
+                src="/resume/icons/mysql.svg"
                 className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
               />
               <img
                 alt="postgressql"
-                src="/resume/public/icons/postgressql.svg"
+                src="/resume/icons/postgressql.svg"
                 className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
               />
               <img
                 alt="mongodb"
-                src="/resume/public/icons/mongodb.svg"
+                src="/resume/icons/mongodb.svg"
                 className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
               />
               <img
                 alt="redis"
-                src="/resume/public/icons/redis.svg"
+                src="/resume/icons/redis.svg"
                 className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
               />
               <img
                 alt="sqlite"
-                src="/resume/public/icons/sqlite.svg"
+                src="/resume/icons/sqlite.svg"
                 className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
               />
               <img
                 alt="sqldeveloper"
-                src="/resume/public/icons/sqldeveloper.svg"
+                src="/resume/icons/sqldeveloper.svg"
                 className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
               />
               <img
                 alt="graphql"
-                src="/resume/public/icons/graphql.svg"
+                src="/resume/icons/graphql.svg"
                 className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
               />
               <img
                 alt="sqlalchemy"
-                src="/resume/public/icons/sqlalchemy.svg"
+                src="/resume/icons/sqlalchemy.svg"
                 className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
               />
             </div>
@@ -88,77 +88,77 @@ export const AboutMe = () => {
           <div className="text-white  col-span-3 row-span-2 grid grid-rows-2 grid-cols-3 gap-4">
             <img
               alt="slack"
-              src="/resume/public/icons/slack.svg"
+              src="/resume/icons/slack.svg"
               className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
             />
             <img
               alt="jira"
-              src="/resume/public/icons/jira.svg"
+              src="/resume/icons/jira.svg"
               className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
             />
             <img
               alt="kubernetes"
-              src="/resume/public/icons/kubernetes.svg"
+              src="/resume/icons/kubernetes.svg"
               className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
             />
             <img
               alt="postman"
-              src="/resume/public/icons/postman.svg"
+              src="/resume/icons/postman.svg"
               className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
             />
             <div className="col-span-1 row-span-1 grid grid-rows-2 grid-cols-2 gap-4">
               <img
                 alt="linux"
-                src="/resume/public/icons/linux.svg"
+                src="/resume/icons/linux.svg"
                 className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
               />
               <img
                 alt="rabbitmq"
-                src="/resume/public/icons/rabbitmq.svg"
+                src="/resume/icons/rabbitmq.svg"
                 className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
               />
               <img
                 alt="bash"
-                src="/resume/public/icons/bash.svg"
+                src="/resume/icons/bash.svg"
                 className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
               />
               <img
                 alt="gitlab"
-                src="/resume/public/icons/gitlab.svg"
+                src="/resume/icons/gitlab.svg"
                 className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
               />
             </div>
             <img
               alt="github"
-              src="/resume/public/icons/github.svg"
+              src="/resume/icons/github.svg"
               className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
             />
           </div>
 
           <img
             alt="django"
-            src="/resume/public/icons/django.svg"
+            src="/resume/icons/django.svg"
             className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
           />
           <div className="col-span-1 row-span-1 grid grid-cols-2 grid-rows-2 gap-4">
             <img
               alt="flask"
-              src="/resume/public/icons/flask.svg"
+              src="/resume/icons/flask.svg"
               className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
             />
             <img
               alt="fastapi"
-              src="/resume/public/icons/fastapi.svg"
+              src="/resume/icons/fastapi.svg"
               className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
             />
             <img
               alt="selenium"
-              src="/resume/public/icons/selenium.svg"
+              src="/resume/icons/selenium.svg"
               className="rounded-md col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
             />
             <img
               alt="json"
-              src="/resume/public/icons/json.svg"
+              src="/resume/icons/json.svg"
               className="col-span-1 row-span-1 transition-all duration-500 hover:scale-110"
             />
           </div>
