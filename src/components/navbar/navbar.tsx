@@ -15,8 +15,8 @@ const links = [
     href: "#experience",
   },
   {
-    text: "Projects",
-    href: "#projects",
+    text: "Education",
+    href: "#education",
   },
   {
     text: "Contact",

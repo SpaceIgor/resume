@@ -97,7 +97,7 @@ export const MobileNavbar: React.FC<MobileNavbarProps> = ({ links }) => {
                   href={config.socials.resume_link}
                   className="px-4 py-2 w-fit text-xl font-roboto-mono font-bold text-neon border-2 border-neon rounded-sm transition-colors duration-500 hover:bg-neon-light uppercase"
                 >
-                  Resume
+                  Save PDF
                 </a>
               </nav>
             </div>

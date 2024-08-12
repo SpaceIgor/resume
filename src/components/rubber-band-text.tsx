@@ -51,7 +51,7 @@ export const RubberBandText: React.FC<RubberBandTextProps> = ({
       className={cn(
         "opacity-0 inline-block text-neon",
         !active &&
-          "opacity-100 transition-all duration-300 hover:text-white shadow-[1px 1px 2px] shadow-neon",
+          "opacity-100 transition-all duration-300 hover:text-white shadow-[1px 1px 2px]",
         !active && hover && "animate-rubber-band",
         active && `animate-rubber-scale delay-[${delay}ms]`,
         className

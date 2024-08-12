@@ -7,7 +7,7 @@ export const ContactMe = () => {
   return (
     <section
       id="contact"
-      className="container h-[700px] flex justify-center items-center md:h-[1000px]"
+      className="container h-[calc(100vh-132px)] flex justify-center items-center md:h-[calc(100vh-68px)]"
     >
       <div className="w-full flex flex-col gap-4 md:w-3/5">
         <h2 className="text-neon text-4xl md:text-5xl">Contact me</h2>

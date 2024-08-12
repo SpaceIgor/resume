@@ -14,9 +14,10 @@ export default {
         "red-neon": "rgb(255, 49, 49)",
       },
       fontFamily: {
-        "ubuntu-condensed": ['"Ubuntu Condensed"', "sans-serif"],
         "roboto-mono": ['"Roboto Mono"', "monospace"],
-        heebo: ["Heebo", "sans-serif"],
+      },
+      boxShadow: {
+        neon: "0 0 90px 20px rgba(14, 227, 181, 0.2)",
       },
       keyframes: {
         "rubber-band-keyframes": {
