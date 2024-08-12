@@ -57,7 +57,7 @@ export const HeroSection = () => {
           )}
         </h1>
         <p className="font-roboto-mono font-semibold text-primary  md:text-xl">
-          Back-End Python developer / Web Python developer
+          Python developer / Software Engineer 
         </p>
         <a
           href="#about"
