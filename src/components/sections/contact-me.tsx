@@ -1,7 +1,7 @@
 import { config } from "@/lib/config";
 
 export const ContactMe = () => {
-  const email_link = `mailto:${config.socials.email}`;
+  const telegram_link = config.socials.telegram_link;
   const text = config.texts.contact;
 
   return (
@@ -15,7 +15,8 @@ export const ContactMe = () => {
           {text}
         </p>
         <a
-          href={email_link}
+          target="_blanck"
+          href={telegram_link}
           className="w-fit mt-4 px-4 py-2 text-lg md:text-xl font-roboto-mono font-bold text-neon border-2 border-neon rounded-sm overflow-hidden relative transition-all duration-700 before:content-[''] before:absolute before:top-0 before:w-[120%] before:h-full before:bg-neon before:translate-x-[-110%] before:skew-x-[-20deg] before:-z-[1] before:transition-all before:duration-700 hover:text-secondary hover:before:translate-x-[-20%] "
         >
           Send message!
