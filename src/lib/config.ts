@@ -11,10 +11,20 @@ export const config = {
   },
   texts: {
     about:
-      "Hi, I'm Ihor, a Python developer with a deep understanding of the language and a proven track record of delivering high-quality, maintainable code. Recognized as the Person of the Year in 2006, I excel in problem-solving and thrive in collaborative environments, where I work closely with teams to create innovative and efficient Python solutions. My experience spans working with microservices, optimizing code performance, and mentoring junior developers. I am passionate about continuous learning and applying cutting-edge technologies to solve complex challenges.",    
-      contact:
+      "Hi, I'm Ihor, a Python developer with a deep understanding of the language and a proven track record of delivering high-quality, maintainable code. Recognized as the Person of the Year in 2006, I excel in problem-solving and thrive in collaborative environments, where I work closely with teams to create innovative and efficient Python solutions. My experience spans working with microservices, optimizing code performance, and mentoring junior developers. I am passionate about continuous learning and applying cutting-edge technologies to solve complex challenges.",
+    contact:
       "I am waiting for new challenges, my mail is always open for any questions. Just ask anything and I will do my best to reach you with answers!",
   },
+  skills: [
+    {
+      title: "Python",
+      url: "/resume/icons/python.svg",
+    },
+    {
+      title: "Python",
+      url: "https://icon.icepanel.io/Technology/svg/AngularJS.svg",
+    },
+  ],
   experience: [
     {
       title: "InDevLab",
@@ -66,7 +76,7 @@ export const config = {
         "Managed and maintained servers, networks, and infrastructure components.",
         "Monitored system performance and ensured optimal operation.",
         "Installed, configured, and updated software and hardware systems.",
-        "Provided technical support and resolved user issues."
+        "Provided technical support and resolved user issues.",
       ],
     },
   ],
