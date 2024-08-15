@@ -26,7 +26,7 @@ export const AboutMe = () => {
                   <img
                     src={url}
                     alt={title}
-                    className="w-4/5 h-4/5 transition-all duration-500 hover:scale-105"
+                    className="w-[70%] h-[70%] transition-all duration-500 hover:scale-105"
                   />
                 </div>
               </div>
