@@ -117,10 +117,6 @@ export const config = {
       url: "https://icon.icepanel.io/Technology/svg/DBeaver.svg",
     },
     {
-      title: "JSON",
-      url: "https://icon.icepanel.io/Technology/png-shadow-512/JSON.png",
-    },
-    {
       title: "Confluence",
       url: "https://icon.icepanel.io/Technology/svg/Confluence.svg",
     },
