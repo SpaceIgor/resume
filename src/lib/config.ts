@@ -18,12 +18,53 @@ export const config = {
   skills: [
     {
       title: "Python",
-      url: "/resume/icons/python.svg",
+      url: "https://icon.icepanel.io/Technology/svg/Python.svg",
     },
     {
-      title: "Python",
-      url: "https://icon.icepanel.io/Technology/svg/AngularJS.svg",
+      title: "Django",
+      url: "https://icon.icepanel.io/Technology/png-shadow-512/Django.png",
     },
+    {
+      title: "FastApi",
+      url: "https://icon.icepanel.io/Technology/svg/FastAPI.svg",
+    },
+    {
+      title: "Flask",
+      url: "https://icon.icepanel.io/Technology/png-shadow-512/Flask.png",
+    },
+    {
+      title: "PostgresSql",
+      url: "https://icon.icepanel.io/Technology/svg/PostgresSQL.svg",
+    },
+    {
+      title: "SqlAlchemy",
+      url: "https://icon.icepanel.io/Technology/png-shadow-512/SQLAlchemy.png",
+    },
+    {
+      title: "MySql",
+      url: "https://icon.icepanel.io/Technology/svg/MySQL.svg",
+    },
+    {
+      title: "SqlLite",
+      url: "https://icon.icepanel.io/Technology/png-shadow-512/SQLite.png",
+    },
+    {
+      title: "Mongo",
+      url: "https://icon.icepanel.io/Technology/svg/MongoDB.svg",
+    },
+    {
+      title: "Redis",
+      url: "https://icon.icepanel.io/Technology/svg/Redis.svg",
+    },
+    {
+      title: "Kafka",
+      url: "https://icon.icepanel.io/Technology/png-shadow-512/Apache-Kafka.png",
+    },
+     {
+      title: "RabbitMQ",
+      url: "https://icon.icepanel.io/Technology/svg/RabbitMQ.svg",
+    },
+    
   ],
   experience: [
     {
