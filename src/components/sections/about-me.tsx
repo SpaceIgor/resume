@@ -18,7 +18,7 @@ export const AboutMe = () => {
           <div className="hexagon-grid-container">
             {skills.map(({ url, title }) => (
               <div className="hexagon-item group" key={url}>
-                <span className="absolute max-w-[100px] text-ellipsis overflow-hidden -top-8 left-1/2 -translate-x-1/2 flex-col items-center hidden text-neon group-hover:flex">
+                <span className="absolute w-[100px] text-ellipsis overflow-hidden -top-8 left-1/2 -translate-x-1/2 flex-col items-center hidden text-neon group-hover:flex">
                   {title}
                 </span>
 
