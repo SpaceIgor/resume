@@ -64,7 +64,114 @@ export const config = {
       title: "RabbitMQ",
       url: "https://icon.icepanel.io/Technology/svg/RabbitMQ.svg",
     },
-    
+    {
+      title: "GitLab",
+      url: "https://icon.icepanel.io/Technology/svg/GitLab.svg",
+    },
+    {
+      title: "GitHub",
+      url: "https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png",
+    },
+    {
+      title: "Actions",
+      url: "https://icon.icepanel.io/Technology/svg/GitHub-Actions.svg",
+    },
+    {
+      title: "Codespaces",
+      url: "https://icon.icepanel.io/Technology/png-shadow-512/GitHub-Codespaces.png",
+    },
+    {
+      title: "BitBucket",
+      url: "https://icon.icepanel.io/Technology/svg/BitBucket.svg",
+    },
+    {
+      title: "AWS",
+      url: "https://icon.icepanel.io/Technology/png-shadow-512/AWS.png",
+    },
+    {
+      title: "Vim",
+      url: "https://icon.icepanel.io/Technology/svg/Vim.svg",
+    },
+    {
+      title: "Docker",
+      url: "https://icon.icepanel.io/Technology/svg/Docker.svg",
+    }, 
+    {
+      title: "K8",
+      url: "https://icon.icepanel.io/Technology/svg/Kubernetes.svg",
+    }, 
+    {
+      title: "DO",
+      url: "https://icon.icepanel.io/Technology/svg/Digital-Ocean.svg",
+    }, 
+    {
+      title: "Slack",
+      url: "https://icon.icepanel.io/Technology/svg/Slack.svg",
+    }, 
+    {
+      title: "JSON",
+      url: "https://icon.icepanel.io/Technology/png-shadow-512/JSON.png",
+    },
+    {
+      title: "Dbeaver",
+      url: "https://icon.icepanel.io/Technology/svg/DBeaver.svg",
+    },
+    {
+      title: "JSON",
+      url: "https://icon.icepanel.io/Technology/png-shadow-512/JSON.png",
+    },
+    {
+      title: "Confluence",
+      url: "https://icon.icepanel.io/Technology/svg/Confluence.svg",
+    },
+    {
+      title: "Git",
+      url: "https://icon.icepanel.io/Technology/svg/Git.svg",
+    },
+    {
+      title: "Bash",
+      url: "https://icon.icepanel.io/Technology/png-shadow-512/Bash.png",
+    },
+    {
+      title: "Jira",
+      url: "https://icon.icepanel.io/Technology/svg/Jira.svg",
+    },
+    {
+      title: "Selenium",
+      url: "https://icon.icepanel.io/Technology/svg/Selenium.svg",
+    },
+    {
+      title: "Ubuntu",
+      url: "https://icon.icepanel.io/Technology/svg/Ubuntu.svg",
+    },
+    {
+      title: "Windows",
+      url: "https://icon.icepanel.io/Technology/svg/Windows-8.svg",
+    },
+    {
+      title: "Linux",
+      url: "https://icon.icepanel.io/Technology/png-shadow-512/Linux.png",
+    },
+    {
+      title: "Nginx",
+      url: "https://icon.icepanel.io/Technology/svg/NGINX.svg",
+    },
+    {
+      title: "OpenApi",
+      url: "https://icon.icepanel.io/Technology/png-shadow-512/OpenAPI.png",
+    },
+    {
+      title: "PyCharm",
+      url: "https://icon.icepanel.io/Technology/svg/PyCharm.svg",
+    },
+    {
+      title: "Postman",
+      url: "https://icon.icepanel.io/Technology/svg/Postman.svg",
+    },
+    {
+      title: "Swagger",
+      url: "https://icon.icepanel.io/Technology/svg/Swagger.svg",
+    },
   ],
   experience: [
     {
