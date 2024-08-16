@@ -6,7 +6,7 @@ export const Education = () => {
   return (
     <section
       id="education"
-      className="container min-h-screen flex justify-center items-center pt-40 sm:pt-20 md:pt-0"
+      className="container min-h-screen flex justify-center items-center pt-20"
     >
       <div className="w-full flex flex-col gap-4 md:gap-8 md:w-3/5">
         <h2 className="text-neon text-4xl md:text-5xl">Education</h2>
