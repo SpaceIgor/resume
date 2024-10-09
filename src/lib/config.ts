@@ -3,7 +3,7 @@
 export const config = {
   socials: {
     resume_link:
-      "https://drive.google.com/uc?export=download&id=1qUGAGpzv52bFN1Rq8AGdH5lThFK3zbda",
+      "https://drive.google.com/uc?export=download&id=16ndXC9IFmn8PjAmwYmcDOG6Zepn0iGCc8PKqIJ7H79U",
     telegram_link: "https://t.me/taranka_21",
     linkedin_link: "https://www.linkedin.com/in/ihor-sivak-016945215/",
     email: "igorsivak97@gmail.com",
